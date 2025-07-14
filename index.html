@@ -10,11 +10,60 @@
         <nav>
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="other.html">Veja mais</a></li>
+                <li><a href="#recipes">Receitas</a></li>
+                <li><a href="#about">Sobre</a></li>
             </ul>
         </nav>
     </header>
-    <h1>ODIN RECIPES</h1>
-        <a href="recipes/lasagna.html">Lasagna</a>
+    <main>
+        <section id="hero">
+            <h1>ODIN RECIPES</h1>
+            <p>Descubra aqui receitas simples e muito saborosas!</p>
+            <a href="#recipes" class="button-recipes"> Ver receitas</a>
+        </section>
+
+        <section id="recipes">
+            <h1>Receitas</h1>
+            <p>Confira aqui outras receitas.</p>
+            <div class="container-cards">
+                <div class="card">
+                    <img src="images/brigadeiro-1.jpg" alt="Brigadeiro">
+                    <h2>Brigadeiro</h2>
+                    <p>Receita de brigadeiro, um doce brasileiro delicioso.</p>
+                    <a href="recipes/brigadeiro.html">Ver mais</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/lasanha-1.jpg" alt="Lasanna">
+                    <h2>Lasagna</h2>
+                    <p>Receita de lasanha, um prato italiano saboroso.</p>
+                    <a href="recipes/lasagna.html">Ver mais</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/pizza-1.jpg" alt="Pizza">
+                    <h2>Pizza</h2>
+                    <p>Receita de pizza, uma das comidas mais amadas do mundo.</p>
+                    <a href="recipes/pizza.html">Ver mais</a>
+                </div>
+
+                <div class="card">
+                    <img src="images/focaccia-1.jpg" alt="Focaccia">
+                    <h2>Focaccia</h2>
+                    <p>Receita de focaccia, um pão italiano aromático e cheio de sabor.</p>
+                    <a href="recipes/focaccia.html">Ver mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h1>Sobre</h1>
+            <p>Este site surgiu a partir de uma atividade proposta pelo The Odin Project, com o objetivo de colocar em prática os conhecimentos adquiridos sobre HTML semântico. Além de estruturar o conteúdo de forma acessível e organizada, o projeto também visa a aplicação posterior de estilos com CSS, permitindo experimentar e evoluir na construção de interfaces web modernas e funcionais.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Feito por <a href="">Paulo Henrique Santos</a> | Inspirado pelo <a href="https://www.theodinproject.com/" target="_blank" rel="noopener noreferrer">The Odin Project</a>.</p>
+    </footer>
 </body>
 </html>
