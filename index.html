@@ -3,55 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/styles.css">
     <title>the odin recipes</title>
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#recipes">Receitas</a></li>
-                <li><a href="#about">Sobre</a></li>
-            </ul>
+            <div class="nav-container">
+                <a class="nav-animation" href="index.html">Inicio</a>
+                <a class="nav-animation" href="#recipes">Receitas</a>
+                <a class="nav-animation" href="#about">Sobre</a>
+            </div>
         </nav>
     </header>
     <main>
         <section id="hero">
             <h1>ODIN RECIPES</h1>
             <p>Descubra aqui receitas simples e muito saborosas!</p>
-            <a href="#recipes" class="button-recipes"> Ver receitas</a>
+            <a href="#recipes" class="btn-recipes"> Ver receitas</a>
         </section>
 
         <section id="recipes">
-            <h1>Receitas</h1>
-            <p>Confira aqui outras receitas.</p>
+            <div class="recipes-text">
+                <h1>Receitas</h1>
+                <p>Confira receitas aqui</p>
+            </div>
             <div class="container-cards">
                 <div class="card">
-                    <img src="images/brigadeiro-1.jpg" alt="Brigadeiro">
-                    <h2>Brigadeiro</h2>
-                    <p>Receita de brigadeiro, um doce brasileiro delicioso.</p>
-                    <a href="recipes/brigadeiro.html">Ver mais</a>
+                    <div class="card-image">
+                        <img src="images/brigadeiro-1.jpg" alt="Brigadeiro">
+                    </div>
+                    <div class="card-text">
+                        <h2>Brigadeiro</h2>
+                        <p>Receita de brigadeiro, um doce brasileiro delicioso.</p>
+                        <a class="btn-card" href="recipes/brigadeiro.html">Ver mais</a>
+                    </div>    
                 </div>
 
                 <div class="card">
-                    <img src="images/lasanha-1.jpg" alt="Lasanna">
-                    <h2>Lasagna</h2>
-                    <p>Receita de lasanha, um prato italiano saboroso.</p>
-                    <a href="recipes/lasagna.html">Ver mais</a>
+                    <div class="card-image">
+                        <img src="images/lasanha-1.jpg" alt="Lasanna">
+                    </div>
+                    <div class="card-text">
+                        <h2>Lasagna</h2>
+                        <p>Receita de lasanha, um prato italiano saboroso.</p>
+                        <a class="btn-card" href="recipes/lasagna.html">Ver mais</a>
+                    </div>
                 </div>
 
                 <div class="card">
-                    <img src="images/pizza-1.jpg" alt="Pizza">
-                    <h2>Pizza</h2>
-                    <p>Receita de pizza, uma das comidas mais amadas do mundo.</p>
-                    <a href="recipes/pizza.html">Ver mais</a>
+                    <div class="card-image">
+                        <img src="images/pizza-1.jpg" alt="Pizza">
+                    </div>
+                    <div class="card-text">
+                        <h2>Pizza</h2>
+                        <p>Receita de pizza, uma das comidas mais amadas do mundo.</p>
+                        <a class="btn-card" href="recipes/pizza.html">Ver mais</a>
+                    </div>
                 </div>
 
                 <div class="card">
-                    <img src="images/focaccia-1.jpg" alt="Focaccia">
-                    <h2>Focaccia</h2>
-                    <p>Receita de focaccia, um pão italiano aromático e cheio de sabor.</p>
-                    <a href="recipes/focaccia.html">Ver mais</a>
+                    <div class="card-image">
+                        <img src="images/focaccia-1.jpg" alt="Focaccia">
+                    </div>
+                    <div class="card-text">
+                        <h2>Focaccia</h2>
+                        <p>Receita de focaccia, um pão italiano aromático e cheio de sabor.</p>
+                        <a class="btn-card" href="recipes/focaccia.html">Ver mais</a>
+                    </div>
                 </div>
             </div>
         </section>
